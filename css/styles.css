@@ -1,0 +1,172 @@
+body{ 
+    padding:0; margin:0;font-family: 'Lato', sans-serif;background-color: rgb(103, 103, 230);
+    }
+
+    p{
+      margin: 0vw;
+      padding: 0vw;
+    }
+    /* section{
+       padding: 1vw;
+    } */
+    .input-icons i { 
+        position: absolute; 
+    } 
+
+    .input-icons {  
+        margin-bottom: 1vw;
+        margin-top: 5vw;
+        margin-left: 70vw;
+    } 
+      
+    .icon { 
+        padding: 0.5vw;
+        text-align: left;
+        margin-top: 0.5vw;
+        font-size: 2.4vw; 
+    } 
+      
+    .input-field { 
+        width: 24vw;
+        padding: 1vw;
+        text-align: center;
+        background-color: rgba(150, 160, 184, 0.897);
+        border: 0.1vw;
+        border-color: rgba(76, 76, 228, 0.952);
+        border-style: solid
+    }
+
+    .sun{
+        display: flex;
+        margin: 0 auto !important;
+        box-sizing: border-box;
+        padding: 3vw 2vw 1vw 3.5vw;
+        color: white;
+        font-size: 9vw;
+        justify-content: center;
+    }
+
+    .degrees{
+        display: flex;
+        padding: 10px 5px;
+        color: white;
+        font-size:50px;
+    }
+
+    .big-degrees{
+        display: flex;
+        padding: 20px 5px;
+        color: white;
+        font-size:7.5vw;
+    }
+
+    .next{
+        font-size: 4vw;
+        color: white;
+        padding-left: 0vw;
+        margin: 2vw 0vw 0vw 90vw;
+    }
+
+    .nextMobile{
+        color: white;
+        font-size:0vw;
+    }
+
+    .block{
+        /* float: right; */
+        /* display: flex;
+        flex: 1; */
+
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        /* flex-direction:row; */
+        /* justify-content: center; */
+        width:100%;
+    }
+
+    .fixed-bottomm {
+        position: absolute;
+        bottom: 4vw;
+    }
+
+    .menu{
+        opacity: .9;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.233);
+        height: 23vw;
+        width: 21vw;
+        padding: 1vw 1vw;
+        margin: 1vw;
+    }
+
+    .menuNY{
+        opacity: .9;
+        border: none;
+        height: 23vw;
+        width: 21vw;
+        padding: 1vw 1vw;
+        margin: 0.5vw;
+    }
+
+    /* .menu:hover{
+        transform:scale(1.1);
+    } */
+
+    .center-degreesNY{
+        margin: 0px;
+        height: 10vw;
+    }
+
+    .center-degrees{
+        margin: 0vw;
+        height: 4vw;
+    }
+    
+    .text{
+        color: white;
+        margin-top: 0px !important;
+        margin-bottom: 10px;
+        font-size: 2vw;
+    }
+
+    .textDegreesDay{
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: white;
+        margin: 0px !important;
+        font-size:3vw;
+        padding:2px !important;
+    }
+
+    .textNYdegrees{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        margin: 0vw;
+        font-size: 7.5vw;
+        box-sizing: border-box;
+        padding: 0vw;
+    }
+    .texToday{
+        color: white;
+        margin-top: 0vw !important;
+        margin-bottom: 0vw;
+        font-size: 1.5vw;
+        padding: 0.3vw;;
+    }
+
+    .textDays{
+        color: white;
+        margin: 0px !important;
+        font-size: 1.5vw;
+    }
+
+    .textNY{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-weight: bold;
+        margin-bottom: 0vw;
+        font-size: 2.5vw;
+        padding: 0vw;
+        height: 4vw;
+        margin-top: 0vw;
+    }
