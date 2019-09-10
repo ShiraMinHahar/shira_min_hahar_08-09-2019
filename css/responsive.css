@@ -2,17 +2,18 @@
 @media screen and (max-width: 728px)
 
 {
-    .input-center{
+    .input-icons { 
+        width: 60%;
         margin: 0 auto;
         display: flex;
         justify-content: center;
         align-items: center;
-    }
+        margin-bottom: 5vw;
+    } 
 
     .icon { 
         margin-top: 3.8vw;
         padding-right: 40vw;
-        text-align: left;
         font-size: 3vw;
         min-width: 45vw;
     } 
@@ -20,19 +21,20 @@
     .input-field { 
         width: 100%;
         padding: 2vw;
-        text-align: center;
         margin-top: 7vw;
+        border: none;
     } 
 
-    .input-icons { 
-        width: 60%;
-        margin-top: 40px;
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    } 
-      
+    .sun {
+        padding: 3vw 1vw 4vw 8vw;
+        font-size: 20vw;
+    }
+
+    .big-degrees {
+        padding: 3vw 2vw;
+        font-size: 25vw;
+    }
+
     .next{
         padding: 0vw 0vw ;
         font-size:0vw;
@@ -42,51 +44,53 @@
         font-size: 10vw;
     }
 
-    .block
-    {
-        justify-content: center;
+    .block{
         flex-direction: column;
-        display: flex;
         justify-content: center;
         align-items: center;
     } 
-
-    .big-degrees {
-        padding: 3vw 2vw;
-        font-size: 25vw;
-    }
-
+    
     .fixed-bottomm {
         position: relative;
     }
-
+    
     .menu{
         height: 56vw;
         width: 45vw;
         padding: 3vw 3vw;
-        margin: 5vw;
+        margin: 0vw 5vw 10vw 5vw;
     }
 
     .menuNY{
         height: 56vw;
         width: 45vw;
-        padding: 3vw 3vw;
+        padding: 1.5vw 1.5vw;
+        margin: 0vw;
     }
 
-    .textDegreesDay{
-        font-size: 40px;
+    .input-center{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    
-    .text{
+
+    .center-degreesNY {
+        height: 12vw;
+    }
+
+    .center-degrees {
+        margin-bottom: 9vw;
+    }
+
+    .textSunny{
         margin-top: 9vw!important;
         margin-bottom: 0vw;
         font-size: 3vw;
     }
 
-    .textNY{
-        margin-top: 4vw;
-        font-size: 7vw;
-        font-weight: unset;
+    .textDegreesDay{
+        font-size: 8vw;
     }
 
     .textNYdegrees{
@@ -96,30 +100,18 @@
     .texToday{
         margin-top: 4vw !important;
         font-size: 3vw;
-        margin-bottom: 4vw;
-    }
-
-    .textDegreesDay {
-        font-size: 8vw;
     }
 
     .textDays {
         font-size: 3vw;
     }
 
-    .sun {
-        padding: 3vw 1vw 4vw 8vw;
-        font-size: 20vw;
+    .textNY{
+        margin-top: 4vw;
+        font-size: 7vw;
+        font-weight: unset;
     }
-
-    .center-degrees {
-        margin-bottom: 9vw;
-    }
-
-    .center-degreesNY {
-        margin: 0px;
-        height: 12vw;
-    }
+   
 }
     
     
